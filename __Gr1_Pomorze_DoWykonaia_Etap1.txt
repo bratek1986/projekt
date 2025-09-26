@@ -1,0 +1,11 @@
+1. Początkowa strona główna:
+Utworzymy prostą stronę główną z podstawowym układem. Nagłówek, pole wyszukiwania oraz sekcja na artykuły.
+Strona pełni funkcję testową i stanowi bazę do dalszego rozwoju funkcjonalności.
+
+2. Podstawowy CSS:
+Zastosujemy prosty arkusz stylów CSS w celu poprawy czytelności i estetyki strony.
+Wyrównanie elementów, kolory tła oraz style przycisków i pól formularzy.
+
+3. Podstawowe wyszukiwanie artykułów dla testów:
+Utworzymy wstępną wersję mechanizmu wyszukiwania artykułów. Użytkownik może wpisać zapytanie, a system zwraca listę przykładowych lub testowych wyników,
+symulując działanie przyszłej funkcji wyszukiwania w bazie danych.
