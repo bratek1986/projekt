@@ -9,7 +9,7 @@ body {
 
 header {
     width: 100%;
-    background-image: url(images/polwysep-helski.jpg);
+    background-image: url("images/polwysep-helski.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -21,13 +21,24 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 10px 20px;
     background-color: rgba(49, 48, 48, 0.9);
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.herb img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
 
 .logo {
     font-family: "Noto Serif", serif;
@@ -51,7 +62,7 @@ header {
 ul {
     list-style: none;
     display: inline-flex;
-    gap: 40px;
+    gap: 30px;
     padding: 0;
     margin: 0;
 }
@@ -69,7 +80,7 @@ li a {
 }
 
 li:hover {
-    transform: scale(1.2) translate(2px, 2px);
+    transform: scale(1.1) translate(0.3px, 0.3px);
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
 
@@ -123,15 +134,22 @@ li:hover a {
     top: 10px;
     margin: 10px;
     z-index: 1000;
+    background-color: rgb(62, 62, 62);
+    border: #ffffff;
+    border-radius: 5px;
 }
 
 #menu2 {
-
+    position: sticky;
+    top: 10px;
+    margin-left: 10px;
 }
 
 #menu2.show {
-    
+    width: 100px;
+    height: 300px;
+    background-color: rgb(184, 183, 183);
+    border-radius: 5px;
+}
 
-} /* b */
-
-
+/*b*/
