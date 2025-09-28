@@ -9,7 +9,7 @@ body {
 
 header {
     width: 100%;
-    background-image: url(/images/polwysep-helski.jpg);
+    background-image: url(images/polwysep-helski.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -133,3 +133,4 @@ li:hover a {
     
 
 } /* b */
+
